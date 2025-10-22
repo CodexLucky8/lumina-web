@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-brand-background text-brand-charcoal font-sans antialiased;
+}
+
+a {
+  @apply text-brand-charcoal underline-offset-4 hover:underline;
+}
+
+button {
+  @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-sunshine;
+}
